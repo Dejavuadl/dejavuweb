@@ -32,6 +32,10 @@
     }
 
     /* ─── CURSOR ─── */
+    @media (hover: none), (pointer: coarse) {
+      #cursor, #cursor-ring { display: none !important; }
+      body { cursor: auto !important; }
+    }
     #cursor {
       position: fixed; z-index: 9999; pointer-events: none;
       width: 12px; height: 12px;
