@@ -987,7 +987,10 @@
     .social-link svg { width: 18px; height: 18px; }
 
     .footer-platforms {
-      display: flex; gap: 12px; justify-content: flex-end; flex-wrap: wrap;
+      display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; align-items: center;
+    }
+    @media (max-width: 768px) {
+      .footer-platforms { justify-content: center; }
     }
     .stream-pill {
       padding: 8px 18px;
